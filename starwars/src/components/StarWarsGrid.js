@@ -2,16 +2,6 @@ import React,{useState, useEffect} from 'react';
 import axios from "axios";
 import StarWarsCard from "./StarWarsCard";
 import { Container, Row } from "reactstrap";
-import styled from "styled-components";
-
-const DogButton = styled.button`
-  width: 100px;
-  height: 30px;
-  background: ${props => (props.primary ? "pink" : "yellow")};
-  color: ${props => (props.primary ? "yellow" : "pink")};
-  border: 0;
-  margin: 5px 10px;
-`;
 
 function StarWarsGrid (){
 
